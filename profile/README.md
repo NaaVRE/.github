@@ -7,21 +7,27 @@ NaaVRE is built by LifeWatch ERIC VLIC and the QCDIS team at the University of A
 
 ### Repositories overview
 
-The NaaVRE code base is distributed across several repositories. 
+Repositories are organized in categories and follow the naming convention `category-*`.
 
-- New architecture description: https://github.com/NaaVRE/architecture
-- Jupyter Lab extensions
-  - 🔀 https://github.com/NaaVRE/NaaVRE-communicator-jupyterlab
-  - 📦 https://github.com/NaaVRE/NaaVRE-containerizer-jupyterlab
-  - ⚙️ https://github.com/NaaVRE/NaaVRE-workflow-jupyterlab
-- NaaVRE services
-  - 🗃️ https://github.com/NaaVRE/NaaVRE-catalogue-service
-  - 📦 https://github.com/NaaVRE/NaaVRE-containerizer-service
-  - ⚙️ https://github.com/NaaVRE/NaaVRE-workflow-service
-- Integration
-  - 🔌 https://github.com/NaaVRE/NaaVRE-dev-integration
-- Misc.
-  - 🌐 NaaVRE website: https://github.com/NaaVRE/naavre.github.io
+#### NaaVRE code base and documentation: `NaaVRE-*`
+
+The NaaVRE code base is distributed across several repositories.
+
+- New architecture description: [NaaVRE-architecture](https://github.com/NaaVRE/NaaVRE-architecture)
+- Jupyter Lab extensions: `NaaVRE-*-jupyterlab`
+  - 🔀 [NaaVRE-communicator-jupyterlab](https://github.com/NaaVRE/NaaVRE-communicator-jupyterlab)
+  - 📦 [NaaVRE-containerizer-jupyterlab](https://github.com/NaaVRE/NaaVRE-containerizer-jupyterlab)
+  - ⚙️ [NaaVRE-workflow-jupyterlab](https://github.com/NaaVRE/NaaVRE-workflow-jupyterlab)
+- NaaVRE services: `NaaVRE-*-service`
+  - 🗃️ [NaaVRE-catalogue-service](https://github.com/NaaVRE/NaaVRE-catalogue-service)
+  - 📦 [NaaVRE-containerizer-service](https://github.com/NaaVRE/NaaVRE-containerizer-service)
+  - ⚙️ [NaaVRE-workflow-service](https://github.com/NaaVRE/NaaVRE-workflow-service)
+- Integration: `NaaVRE-*-integration`
+  - 🔌 [NaaVRE-dev-integration](https://github.com/NaaVRE/NaaVRE-dev-integration)
+
+#### Misc.
+
+- 🌐 NaaVRE website: [naavre.github.io](https://github.com/NaaVRE/naavre.github.io)
 
 ### License
 
