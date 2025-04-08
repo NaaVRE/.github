@@ -13,7 +13,8 @@ Repositories are organized in categories and follow the naming convention `categ
 
 The NaaVRE code base is distributed across several repositories.
 
-- New architecture description: [NaaVRE-architecture](https://github.com/NaaVRE/NaaVRE-architecture)
+- Issues and documentation: [NaaVRE](https://github.com/NaaVRE/NaaVRE)
+- Architecture description: [NaaVRE-architecture](https://github.com/NaaVRE/NaaVRE-architecture)
 - Jupyter Lab extensions: `NaaVRE-*-jupyterlab`
   - 🔀 [NaaVRE-communicator-jupyterlab](https://github.com/NaaVRE/NaaVRE-communicator-jupyterlab)
   - 📦 [NaaVRE-containerizer-jupyterlab](https://github.com/NaaVRE/NaaVRE-containerizer-jupyterlab)
@@ -24,6 +25,8 @@ The NaaVRE code base is distributed across several repositories.
   - ⚙️ [NaaVRE-workflow-service](https://github.com/NaaVRE/NaaVRE-workflow-service)
 - Integration: `NaaVRE-*-integration`
   - 🔌 [NaaVRE-dev-integration](https://github.com/NaaVRE/NaaVRE-dev-integration)
+- Deployment
+  - 🚀 [NaaVRE-helm](https://github.com/NaaVRE/NaaVRE-helm/)
 
 #### Misc.
 
