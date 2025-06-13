@@ -7,26 +7,23 @@ NaaVRE is built by LifeWatch ERIC VLIC and the QCDIS team at the University of A
 
 ### Repositories overview
 
-Repositories are organized in categories and follow the naming convention `category-*`.
-
-#### NaaVRE code base and documentation: `NaaVRE-*`
+#### NaaVRE code base and documentation
 
 The NaaVRE code base is distributed across several repositories.
 
 - Issues and documentation: [NaaVRE](https://github.com/NaaVRE/NaaVRE)
 - Architecture description: [NaaVRE-architecture](https://github.com/NaaVRE/NaaVRE-architecture)
-- Jupyter Lab extensions: `NaaVRE-*-jupyterlab`
+- UI components (`NaaVRE-*-jupyterlab` or `NaaVRE-*-frontend`)
   - 🔀 [NaaVRE-communicator-jupyterlab](https://github.com/NaaVRE/NaaVRE-communicator-jupyterlab)
   - 📦 [NaaVRE-containerizer-jupyterlab](https://github.com/NaaVRE/NaaVRE-containerizer-jupyterlab)
   - ⚙️ [NaaVRE-workflow-jupyterlab](https://github.com/NaaVRE/NaaVRE-workflow-jupyterlab)
-- NaaVRE services: `NaaVRE-*-service`
+  - 🖥️ [NaaVRE-PaaS-frontend](https://github.com/NaaVRE/NaaVRE-PaaS-frontend)
+- API services (`NaaVRE-*-service`)
   - 🗃️ [NaaVRE-catalogue-service](https://github.com/NaaVRE/NaaVRE-catalogue-service)
   - 📦 [NaaVRE-containerizer-service](https://github.com/NaaVRE/NaaVRE-containerizer-service)
   - ⚙️ [NaaVRE-workflow-service](https://github.com/NaaVRE/NaaVRE-workflow-service)
-- Other frontend components:
-  - 🖥️ [NaaVRE-PaaS-frontend](https://github.com/NaaVRE/NaaVRE-PaaS-frontend)
 - 🍭 NaaVRE [flavors](https://github.com/NaaVRE/flavors)
-- Integration: `NaaVRE-*-integration`
+- Integration (`NaaVRE-*-integration`)
   - 🔌 [NaaVRE-dev-integration](https://github.com/NaaVRE/NaaVRE-dev-integration)
 - Deployment
   - 🚀 [NaaVRE-helm](https://github.com/NaaVRE/NaaVRE-helm/)
