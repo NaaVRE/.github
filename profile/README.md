@@ -1,7 +1,7 @@
 ## NaaVRE - Notebook as a Virtual Research Environment
 
 > [!IMPORTANT]
-> We are currently reworking the NaaVRE architecture, migrating code from monolytic repositories in the [QCDIS org](https://github.com/orgs/QCDIS/) to fine-grained repositories on the [NaaVRE org](https://github.com/NaaVRE/).
+> We are currently reworking the NaaVRE architecture, migrating code from monolithic repositories in the [QCDIS org](https://github.com/orgs/QCDIS/) to fine-grained repositories on the [NaaVRE org](https://github.com/NaaVRE/).
 
 NaaVRE is built by LifeWatch ERIC VLIC and the QCDIS team at the University of Amsterdam. To learn more, visit https://naavre.net.
 
@@ -23,6 +23,9 @@ The NaaVRE code base is distributed across several repositories.
   - 🗃️ [NaaVRE-catalogue-service](https://github.com/NaaVRE/NaaVRE-catalogue-service)
   - 📦 [NaaVRE-containerizer-service](https://github.com/NaaVRE/NaaVRE-containerizer-service)
   - ⚙️ [NaaVRE-workflow-service](https://github.com/NaaVRE/NaaVRE-workflow-service)
+- Other frontend components:
+  - 🖥️ [NaaVRE-PaaS-frontend](https://github.com/NaaVRE/NaaVRE-PaaS-frontend)
+- 🍭 NaaVRE [flavors](https://github.com/NaaVRE/flavors)
 - Integration: `NaaVRE-*-integration`
   - 🔌 [NaaVRE-dev-integration](https://github.com/NaaVRE/NaaVRE-dev-integration)
 - Deployment
